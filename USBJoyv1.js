@@ -28,7 +28,7 @@ E.setUSBHID({
   ]
 });
 
-export.send = function(btn,x,y,z,rx) {
+exports.send = function(btn,x,y,z,rx) {
   cx = E.clip(x,-32768,32767);
   cy = E.clip(y,-32768,32767);
   cz = E.clip(z,-32768,32767);
